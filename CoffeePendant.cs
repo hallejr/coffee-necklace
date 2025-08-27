@@ -14,12 +14,13 @@ namespace CotLTemplateMod.Items
         
         public override bool CanBeGivenToFollower True
         public override string	GiftTitle(Follower follower)	$“{Name()} ({Inventory.GetItemQuantity(ItemType)})“
-
+        public override CustomItemManager.AddNecklace()
+        public override CustomItemManager.ItemRarity	Rarity	CustomItemManager.ItemRarity.UNCOMMON
 
         public override bool	AddItemToDungeonChests	true
-public override int	DungeonChestSpawnChance	5
-public override int	DungeonChestMinAmount	1
-public override int	DungeonChestMaxAmount	3
+        public override int	DungeonChestSpawnChance	5
+        public override int	DungeonChestMinAmount	1
+        public override int	DungeonChestMaxAmount	3
         
     }
 }
