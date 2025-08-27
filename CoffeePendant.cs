@@ -8,6 +8,7 @@ namespace CotLTemplateMod.Items
         public override string InternalName => "Coffee_Pendant";
         public override string LocalizedName() { return "Coffee Pendant"; }
         public override string LocalizedDescription() { return "All speed, no sleep."; }
+        public override string	LocalizedLore()	{ return "Followers wearing this necklace are caffenated. They do not sleep, and walk faster than others."; }
 
         public override Sprite InventoryIcon => TextureHelper.CreateSpriteFromPath(Path.Combine(Plugin.PluginPath, "Assets", "coffee_necklace_icon.png"));
         public override Sprite	Sprite	TextureHelper.CreateSpriteFromPath(PluginPaths.ResolveAssetPath(“coffee_necklace_sprite.png”))
